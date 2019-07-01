@@ -1387,7 +1387,7 @@ ul.bullets li:before {
   color: #626262;
   font-weight: normal;
   padding: 7px 12px 7px 0px;
-  text-transform: none;
+  text-transform: capitalize;
 }
 .bootstrap-select .selectpicker:focus, .bootstrap-select .selectpicker:active {
   outline: none !important;
@@ -1406,7 +1406,7 @@ ul.bullets li:before {
   font-weight: normal;
   font-variant: normal;
   line-height: 1;
-  text-transform: none;
+  text-transform: capitalize;
   color: #626262;
   content: "\f0d7";
   font-size: 12px;
@@ -1431,7 +1431,7 @@ ul.bullets li:before {
   font-weight: normal;
   font-variant: normal;
   line-height: 1;
-  text-transform: none;
+  text-transform: capitalize;
   -moz-transition: 0.3s;
   -webkit-transition: 0.3s;
   transition: 0.3s;
