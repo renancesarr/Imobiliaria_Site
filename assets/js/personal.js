@@ -18,7 +18,7 @@ function createImovel(preco, patchImage, rua, numeroCasa, bairro, banheiros, qua
                 '<div class="inner">'+
                     '<div class="image">'+
                         '<div class="tipo average-color"><span>ALUGA-SE</span></div>'+
-                        '<div class="price average-color"><span>$'+preco+'</span></div>'+
+                        '<div class="price average-color"><span>R$ '+preco+'</span></div>'+
                         '<img src="'+patchImage+'" alt="">'+
                     '</div>'+
                     '<div class="item-content">'+
@@ -107,6 +107,7 @@ function getAllConfig(){
             
         });
     });
+    getAllImoveis();
 
 }
 
